@@ -1,0 +1,31 @@
+{
+  "name": "Notas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NumeroDoAluno": {
+      "type": "number",
+      "required": true
+    },
+    "NomeDoAluno": {
+      "type": "string",
+      "required": true
+    },
+    "NomeDaCadeira": {
+      "type": "string",
+      "required": true
+    },
+    "Nota": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

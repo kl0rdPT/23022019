@@ -1,0 +1,16 @@
+{
+  "name": "notas",
+  "version": "1.0.0",
+  "description": "Trabalho de Sistemas Distribuidos",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Ola\\\""
+  },
+  "keywords": [
+    "notas",
+    "alunos",
+    "recurso"
+  ],
+  "author": "Leonardo Marques",
+  "license": "ISC"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Alunos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "NumeroDoAluno": {
+      "type": "number",
+      "required": true
+    },
+    "NomeDoAluno": {
+      "type": "string",
+      "required": true
+    },
+    "CursoDoAluno": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
